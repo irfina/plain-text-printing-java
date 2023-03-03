@@ -6,3 +6,7 @@ You must set a default printer first.
 Tested on Windows 10, using Epson LX-310 printer.
 
 Notes: Some people on Internet alose recommend to use "\f" (form feed) at the end of printing to make printer eject the paper.
+
+Using Blueprint LITE Series BL-80 printer:
+* Control code to cut paper is: Chr(27) & "m"
+* In Java: "\u001B" + "m" 
